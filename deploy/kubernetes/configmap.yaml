@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: configmap
+  namespace: default
+data:
+  env.profile: dev3
+  env.profile.bulk: dev3,mongoprojectiondbhost,bulk
+  env.profile.realtime: dev3,mongoprojectiondbhost,realtime
+

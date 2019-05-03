@@ -1,0 +1,163 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: mongoprojectiondbhost
+spec:
+  ports:
+    - name: mongoprojectiondbhost
+      protocol: TCP
+      port: 27017
+      targetPort: 27017
+  type: ExternalName
+  externalName: db.dev3.zailab.com
+
+---
+
+kind: Service
+apiVersion: v1
+metadata:
+  name: mongodbhost
+spec:
+  ports:
+  - name: mongodb
+    protocol: TCP
+    port: 27017
+    targetPort: 27017
+  type: ExternalName
+  externalName: db.dev3.zailab.com
+
+---
+
+kind: Service
+apiVersion: v1
+metadata:
+  name: kafkahost
+spec:
+  type: ExternalName
+  externalName: kafka.dev3.zailab.com
+
+---
+
+kind: Service
+apiVersion: v1
+metadata:
+  name: kafka-rtc-za
+spec:
+  ports:
+    - name: kafka-rtc-za
+      protocol: TCP
+      port: 27017
+      targetPort: 27017
+  type: ExternalName
+  externalName: kafka.dev3.zailab.com
+
+---
+
+kind: Service
+apiVersion: v1
+metadata:
+  name: kafka1
+spec:
+  type: ExternalName
+  externalName: kafka1.dev3.zailab.com
+
+---
+
+kind: Service
+apiVersion: v1
+metadata:
+  name: kafka2
+spec:
+  type: ExternalName
+  externalName: kafka2.dev3.zailab.com
+
+---
+
+kind: Service
+apiVersion: v1
+metadata:
+  name: kafka3
+spec:
+  type: ExternalName
+  externalName: kafka3.dev3.zailab.com
+
+
+---
+
+kind: Service
+apiVersion: v1
+metadata:
+  name: redishost
+  namespace: default
+spec:
+  type: ExternalName
+  externalName: redis.dev3.zailab.com
+  ports:
+  - name: redishost
+    protocol: TCP
+    port: 6379
+    targetPort: 6379
+
+---
+
+kind: Service
+apiVersion: v1
+metadata:
+  name: redis
+spec:
+  type: ExternalName
+  externalName: redis.dev3.zailab.com
+  ports:
+  - name: redis
+    protocol: TCP
+    port: 6379
+    targetPort: 6379
+
+---
+
+kind: Service
+apiVersion: v1
+metadata:
+  name: rabbitmqhost
+  namespace: default
+spec:
+  type: ExternalName
+  externalName: amqp.dev3.zailab.com
+  ports:
+  - name: rabitmqhost
+    protocol: TCP
+    port: 5672
+    targetPort: 5672
+
+---
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: mysqlhost
+  namespace: default
+spec:
+  type: ExternalName
+  externalName: sql.dev3.zailab.com
+  ports:
+  - port: 3306
+    protocol: TCP
+    targetPort: 3306
+  selector:
+    app: mysql
+
+---
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: psqlhost
+  namespace: default
+spec:
+  type: ExternalName
+  externalName: psql.dev3.zailab.com
+  ports:
+  - port: 5432
+    targetPort: 5432
+    protocol: TCP
+
