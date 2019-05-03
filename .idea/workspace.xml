@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8dc71b11-81e8-447a-98a4-1f9d793dee5a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deploy/kubernetes/gitlab-registry-secret.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/kubernetes/gitlab-registry-secret.yaml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,8 +43,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="12" />
-    <option name="y" value="29" />
+    <option name="x" value="1937" />
+    <option name="y" value="20" />
     <option name="width" value="1852" />
     <option name="height" value="994" />
   </component>
