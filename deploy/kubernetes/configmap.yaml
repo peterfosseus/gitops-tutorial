@@ -16,4 +16,5 @@ metadata:
   name: gitops-flux
   namespace: default
 data:
+  # Configuration values can be set as key-value properties
   git.url: git@github.com:peterfosseus/gitops-tutorial
