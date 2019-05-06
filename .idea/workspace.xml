@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8dc71b11-81e8-447a-98a4-1f9d793dee5a" name="Default Changelist" comment="" />
+    <list default="true" id="8dc71b11-81e8-447a-98a4-1f9d793dee5a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/flux/flux-deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/flux/flux-deployment.yaml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,20 +43,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/deploy/kubernetes/configmap.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="300">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/flux/flux-deployment.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="603">
-              <caret line="77" column="37" lean-forward="true" selection-start-line="77" selection-start-column="37" selection-end-line="77" selection-end-column="37" />
+            <state relative-caret-position="315">
+              <caret line="78" column="30" lean-forward="true" selection-start-line="78" selection-start-column="30" selection-end-line="78" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -67,7 +69,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/flux/flux-deployment.yaml" />
         <option value="$PROJECT_DIR$/deploy/kubernetes/podinfo-dep.yaml" />
         <option value="$PROJECT_DIR$/deploy/kubernetes/namespaces.yaml" />
         <option value="$PROJECT_DIR$/deploy/kubernetes/external-services.yaml" />
@@ -75,6 +76,7 @@
         <option value="$PROJECT_DIR$/deploy/kubernetes/kafka-manager-2.yaml" />
         <option value="$PROJECT_DIR$/deploy/kubernetes/kafka-manager.yaml" />
         <option value="$PROJECT_DIR$/deploy/kubernetes/configmap.yaml" />
+        <option value="$PROJECT_DIR$/flux/flux-deployment.yaml" />
       </list>
     </option>
   </component>
@@ -232,17 +234,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flux/flux-deployment.yaml">
+    <entry file="file://$PROJECT_DIR$/deploy/kubernetes/configmap.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="603">
-          <caret line="77" column="37" lean-forward="true" selection-start-line="77" selection-start-column="37" selection-end-line="77" selection-end-column="37" />
+        <state relative-caret-position="300">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/deploy/kubernetes/configmap.yaml">
+    <entry file="file://$PROJECT_DIR$/flux/flux-deployment.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="315">
+          <caret line="78" column="30" lean-forward="true" selection-start-line="78" selection-start-column="30" selection-end-line="78" selection-end-column="30" />
         </state>
       </provider>
     </entry>

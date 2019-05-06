@@ -69,6 +69,13 @@ spec:
         - name: git-keygen
           mountPath: /var/fluxd/keygen # to match location given in image's /etc/ssh/config
 
+        env:
+        - name: GIT_URL
+          valueFrom:
+            configMapKeyRef:
+              name: gitops-flux
+              key: git.url
+
         # Include this if you need to mount a customised known_hosts
         # file; you'll also need the volume declared above.
         # - name: ssh-config
@@ -100,7 +107,7 @@ spec:
         - --ssh-keygen-dir=/var/fluxd/keygen
 
         # replace or remove the following URL
-        - --git-url=git@github.com:peterfosseus/gitops-tutorial
+        - --git-url=$(GIT_URL)
         - --git-branch=master
         - --git-path=deploy/kubernetes
 
