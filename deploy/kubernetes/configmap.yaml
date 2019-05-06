@@ -8,3 +8,12 @@ data:
   env.profile.bulk: dev3,mongoprojectiondbhost,bulk
   env.profile.realtime: dev3,mongoprojectiondbhost,realtime
 
+---
+
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: gitops
+  namespace: default
+data:
+  git.url: git@github.com:peterfosseus/gitops-tutorial

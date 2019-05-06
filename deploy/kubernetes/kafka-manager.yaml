@@ -7,7 +7,6 @@ metadata:
   name: kafka-manager
   namespace: monitoring
 spec:
-  replicas: 1
   template:
     metadata:
       labels:
