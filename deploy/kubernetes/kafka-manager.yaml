@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   labels:
     project: kafka-manager
-    version: 1.3.3.16
+    version: 1.3.3.17
   name: kafka-manager
   namespace: monitoring
 spec:
@@ -20,7 +20,7 @@ spec:
             - containerPort: 2181
               name: zookeeper
         - name: kafka-manager
-          image: registry.zailab.com/kafka-manager:1.3.3.16
+          image: registry.zailab.com/kafka-manager:1.3.3.17
           env:
             - name: ZK_HOSTS
               value: localhost:2181
