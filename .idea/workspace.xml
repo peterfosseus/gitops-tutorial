@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8dc71b11-81e8-447a-98a4-1f9d793dee5a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/deploy/kubernetes/configmap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/kubernetes/configmap.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/deploy/kubernetes/kafka-manager.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/kubernetes/kafka-manager.yaml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,11 +35,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/deploy/kubernetes/kafka-manager.yaml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="375">
               <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/deploy/kubernetes/configmap.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -58,6 +68,7 @@
         <option value="$PROJECT_DIR$/deploy/kubernetes/gitlab-registry-secret.yaml" />
         <option value="$PROJECT_DIR$/deploy/kubernetes/kafka-manager-2.yaml" />
         <option value="$PROJECT_DIR$/deploy/kubernetes/kafka-manager.yaml" />
+        <option value="$PROJECT_DIR$/deploy/kubernetes/configmap.yaml" />
       </list>
     </option>
   </component>
@@ -186,13 +197,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/deploy/kubernetes/configmap.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/deploy/kubernetes/namespaces.yaml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -225,6 +229,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deploy/kubernetes/configmap.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>

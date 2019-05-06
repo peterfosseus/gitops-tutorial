@@ -13,7 +13,7 @@ data:
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: gitops
+  name: gitops-flux
   namespace: default
 data:
   git.url: git@github.com:peterfosseus/gitops-tutorial
