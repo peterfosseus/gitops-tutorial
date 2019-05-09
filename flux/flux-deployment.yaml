@@ -2,7 +2,11 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
+  labels:
+    project: kafka-manager
+    version: ${projectVersion}
   name: flux
+  namespace: default
 spec:
   replicas: 1
   selector:
